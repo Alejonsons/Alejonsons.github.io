@@ -1,0 +1,372 @@
+body{
+	background-size:cover;
+	background-image:url('img/fundo7.png!d');
+}
+td{
+	color:Black;
+	text-align:center;
+	text-decoration:none;
+
+}
+h3{
+	color:#B3BAB4;
+}
+.imghome{
+	border-radius:5px;
+	position:absolute;
+	top:3%;
+}
+.imghome:hover{
+	transform:scale(1.1,1.1);
+}
+table{
+	font-family: 'Oswald', sans-serif;
+	font-size:120%;
+	background-color:White;
+	width:90%;
+	padding:1.5%;
+	position:absolute;
+	right:0.4%;
+	top:8px;
+}
+td:hover{
+	border-left:solid 1px #A0AEBA;
+	border-right:solid 1px #A0AEBA;
+	
+	
+}
+.imgrust{
+	width:20%;
+	border-radius:30px;
+	position:absolute;
+	right:78%;	
+}
+.imgrust:hover{
+	transform:rotate(360deg);
+	transition-duration:1.5s;
+	transition-timing-function:ease-in-out;
+}
+.imglixo{
+	width:20%;
+	right:2%;
+	position:absolute;
+	bottom:60%;
+	border-radius:30px;
+}
+.resumorust{
+	font-family: 'Courgette', cursive;
+	font-size:130%;
+	text-align:justify;
+	color:Black;
+	border-radius:10px;
+	width:50%;
+	position:absolute;
+	right:25%;
+	top:4%;
+	
+}
+.resumolixo{
+	font-family: 'Courgette', cursive;
+	font-size:130%;
+	text-align:justify;
+	color:Black;
+	border-radius:10px;
+	width:50%;
+	position:absolute;
+	bottom:60%;
+	right:25%;
+}
+footer{
+	font-family: 'Oswald', sans-serif;
+    left:0;
+	height:42%;
+    margin-top:110%;
+    width:100%;
+    position:absolute;
+    background-color:#9EAEE8;
+   
+}
+.voltartopo{
+	position:absolute;
+	width:3%;
+	right:1%;
+	top:3%;
+}
+.voltartopo:hover{
+	transform:scale(1.1);
+}
+.siga_me{
+	position:relative;
+	left:2%;
+}
+.nomefooter{
+	position:absolute;
+	right:1%;
+	top:64%;
+}
+.curso{
+	position:absolute;
+	top:75%;
+	right:1%;
+}
+.iconewpp{
+	width:2.5%;
+	position:absolute;
+	top:50%;
+	left:1.7%;
+}
+.wpp{
+	position:absolute;
+	left:4.5%;
+	top:43%;
+}
+.iconelocal{
+	width:3%;
+	position:absolute;
+	top:74%;
+	left:1.3%;
+}
+.local{
+	position:absolute;
+	top:68%;
+	left:5%;
+}
+h3{
+	color:Black;
+}
+
+.iconett:hover{
+	transform:scale(1.1,1.1);
+
+}
+.iconeinsta:hover{
+	transform:scale(1.1,1.1);
+	
+}
+.iconeface:hover{
+	transform:scale(1.1,1.1);
+	
+}
+.giticon:hover{
+	transform:scale(1.1,1.1);
+	
+}
+.linksredes{
+	position:absolute;
+	top:5%;
+	left:2%;
+}
+a{
+	color:Black;
+	text-decoration:none;
+}
+#sectionorigem{
+	border-radius:1%;
+	background-color:White;
+	width:80%;
+	height:140%;
+	position:absolute;
+	right:9%;
+	top:15%;
+}
+.origemimg{
+	width:80%;
+	height:40%;
+	position:absolute;
+	right:12%;
+	top:3%;
+	border-radius:10px;
+}
+
+.textoorigem{
+	color:Black;
+	text-align:justify;
+	border-radius:10px;
+	width:90%;
+	position:absolute;
+	top:44%;
+	right:4%;
+	font-family: 'Courgette', cursive;
+	font-size:120%;
+}
+.explicform{
+	font-family: 'Courgette', cursive;
+	font-size:120%;
+	border-radius:1%;
+	color:Black;
+	position:absolute;
+	top:2%;
+	right:10%;
+	width:80%;
+}
+.reciclagem{
+	width:30%;
+	right:37%;
+	top:12%;
+	position:absolute;
+	transform:rotate(360deg);
+	transition-duration:1.5s;
+	transition-timing-function:ease-in-out;
+}
+#form{
+	background-color:White;
+	border-radius:1%;
+	color:White;
+	margin-bottom:20%;
+	width:80%;
+	height:140%;
+	position:absolute;
+	top:20%;
+	right:10%;
+}
+.formulario{
+	font-family: 'Righteous', cursive;
+	position:absolute;
+	top:40%;
+	right:37%;
+	border-color:#9EAEE8;
+}
+.botaoenviar{
+	position:absolute;
+	right:30%;
+	border-radius:30px;
+	font-family: 'Righteous', cursive;
+	background-color:White;
+	cursor:pointer;
+	border-color:#9EAEE8;
+}
+.botaoapagar{
+	position:absolute;
+	right:5%;
+	border-radius:30px;
+	font-family: 'Righteous', cursive;
+	background-color:White;
+	cursor:pointer;
+	border-color:#9EAEE8;
+}
+.botaoapagar:hover{
+	transform:scale(1.1,1.1);
+}
+.botaoenviar:hover{
+	transform:scale(1.1,1.1);
+}
+.fieldset{
+	color:Black;
+	border-color:White;
+}
+#section{
+	position:absolute;
+	border-radius:10px;
+	width:90%;
+	background-color:White;
+	height:190%;
+	right:3%;
+	top:15%;
+	margin-bottom:20%;
+}
+#perfil{
+	background-color:#9EAEE8;
+	border-radius:10px;
+	bottom:3%;
+	position:absolute;
+	width:95%;
+	height:50%;
+	right:2%;
+}
+.fotoperfil{
+	border-radius:10px;
+	position:absolute;
+	width:20%;
+	left:1%;
+	bottom:60.5%;
+	transition-duration:0.5s;
+	transition-timing-function:ease;
+}
+.fotoperfil:hover{
+	transform:scale(1.1);
+	transition-duration:0.5s;
+	transition-timing-function:ease;
+}
+.bio{
+	font-family: 'Satisfy', cursive;
+	font-size:115%;
+	position:absolute;
+	bottom:57%;
+	right:0.5%;
+	height:30%;
+}
+.nomeperfil{
+	font-family: 'Satisfy', cursive;
+	font-size:160%;
+	position:absolute;
+	bottom:88%;
+	right:48%;
+}
+.banda{
+	font-family: 'Satisfy', cursive;
+	font-size:160%;
+	position:absolute;
+	width:50%;
+	left:9%;
+	text-align:justify;
+	bottom:10%;
+}
+.iconeguitar{
+	width:10%;
+	position:absolute;
+	left:25%;
+	top:18%;
+}
+.iconeguitar:hover{
+	transform:scale(1.1,1.1);
+}
+.micicone{
+	width:10%;
+	position:absolute;
+	left:38%;
+	top:18%;
+}
+.micicone:hover{
+	transform:scale(1.1,1.1);
+}
+.controleicone{
+	width:10%;
+	position:absolute;
+	top:20%;
+	left:53%;
+}
+.controleicone:hover{
+	transform:scale(1.1,1.1);
+}
+.avengers{
+	position:absolute;
+	width:10%;
+	top:17%;
+	left:69%;
+}
+.avengers:hover{
+	transform:scale(1.1,1.1);
+}
+.pipoca{
+	position:absolute;
+	width:10%;
+	top:16%;
+	left:85%;
+}
+.pipoca:hover{
+	transform:scale(1.1,1.1);
+}
+.video{
+	position:absolute;
+	border-radius:10px;
+	width:30%;
+	right:5%;
+	bottom:20%;
+}
+.music{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:120%;
+	position:absolute;
+	bottom:8%;
+	right:13%;
+}
