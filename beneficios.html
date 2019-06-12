@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Benefícios</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Alejandro Guarianas Cortez"/>
+		<meta name="description" content="Linguagem de Programação Rust" />
+		<meta name="generator" content="Notepad++" />
+		<meta name="keywords" content="Rust, programação" />
+		<link rel="icon" type="shortcut-icon" href="img/icone.png"/>
+		<link rel="stylesheet" type="text/css" href="projeto.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<header>
+	</header>
+		<a id="topo"></a>
+		<nav>
+			<table>
+				<tr>
+					<a href="index.html" ><img class="imghome" src="img/iconehome2.png" width="5%"/></a><td> <a href="origemrust.html"  >Origem Rust</a>  </td><td><a href="genealogia.html">  Genealogia  </td></a><td><a href="beneficios.html" >  Benefícios  </td></a><td><a href="lixoeletronico.html" >Lixo Eletrônico</td></a><td><a href="importancia.html">Importância</td></a><td><a href="reciclar.html">Quer reciclar?</td></a>
+				</tr>
+			
+			</table>
+		</nav>
+		<div id="sectionbeneficios">
+			<p class="titulobeneficios">Benefícios</p>
+			<div id="beneficios">
+			<p class="b1">Código reutilizável via módulos</p>
+			<p class="e1">O Rust permite organizar o código de uma maneira que promove sua reutilização. Você alcança este nível de organização usando módulos, que contêm funções, estruturas e até mesmo outros módulos que você pode tornar públicos (ou seja, expor aos usuários do módulo) ou privados (ou seja, usar somente dentro do módulo e não pelos usuários do módulo, pelo menos não diretamente). O módulo organiza o código como um pacote que outros usuários podem usar.</p>
+			<p class="b2">Verificações de segurança para código mais limpo</p>
+			<p class="e2">O compilador Rust aplica garantias de segurança da memória e outras verificações que tornam a linguagem de programação segura (diferente de C, que pode ser inseguro). Portanto, em Rust, você nunca precisará se preocupar com ponteiros pendentes ou com o uso de um objeto após ele ter sido liberado. Essas coisas fazem parte da linguagem Rust central. Mas, em áreas como desenvolvimento integrado, é importante fazer coisas como colocar uma estrutura em um endereço que represente um conjunto de registros de hardware. O Rust inclui uma palavra-chave unsafe com a qual é possível desativar verificações que geralmente resultariam em um erro de compilação. Conforme mostrado na Listagem 3, a palavra-chave unsafe permite declarar um bloco inseguro. Nesse exemplo, eu declaro uma variável imutável x e, em seguida, um ponteiro para essa variável chamado raw. Então, para remover a referência de raw (que nesse caso imprimiria 1 no console), eu uso a palavra-chave unsafe para permitir essa operação, que de outra forma seria sinalizada na compilação.</p>
+			<p class="b3">Melhor manipulação de erros</p>
+			<p class="e3">Erros acontecem, independentemente da linguagem de programação que você usa. No Rust, os erros encontram-se em dois campos: erros irrecuperáveis (o pior tipo) e erros recuperáveis (o tipo não tão ruim).</p>
+			<p class="b4">Suporte para simultaneidade e encadeamentos</p>
+			<p class="e4">A simultaneidade comumente vem com problemas (disputas e conflitos de dados, para citar dois). O Rust fornece meios de gerar encadeamentos usando o sistema operacional nativo, mas também tenta minimizar os efeitos negativos do encadeamento. O Rust inclui transmissão de mensagem para permitir que os encadeamentos se comuniquem entre si (via send e recv, bem como bloqueio por meio de mutexes). O Rust também fornece a capacidade de permitir que um encadeamento empreste um valor, que lhe fornece propriedade e faz a transição efetiva do escopo do valor (e de sua propriedade) para um novo encadeamento. Assim, o Rust fornece segurança de memória juntamente com simultaneidade, sem disputas de dados. Considere um exemplo simples de encadeamento no Rust que introduz alguns novos elementos (operações de vetor) e traz de volta alguns conceitos discutidos anteriormente (reconhecimento de padrões). Na Listagem 6, eu começo importando os namespaces thread e Duration para o meu programa. Em seguida, eu declaro uma nova função chamada my_thread, que representa o encadeamento que eu criarei mais tarde. Nesse encadeamento, eu simplesmente emito o identificador do encadeamento e, em seguida, o suspendo por um breve período, para que o planejador permita que outro encadeamento seja executado.</p>
+			</div>
+		</div>
+		<footer class="footer4">
+			<a href="#topo"><img class="voltartopo" src="img/iconetopo.png" /></a>
+			<h4 class="siga_me">Siga-me </h4>
+			<div class="linksredes">
+			<br/>
+			<br/>
+			<a href="https://twitter.com/Alejonsons" target="_blank"><img class="iconett" src="img/twitter.png" width="30px"/></a>
+			<a href="https://www.instagram.com/alejonsons/?hl=pt-br" target="_blank"><img class="iconeinsta" src="img/instagram.png" width="35px"/></a>
+			<a href="https://www.facebook.com/alejandro.guarianascortez.1" target="_blank"><img class="iconeface" src="img/iconface.png" width="30px"/></a>
+			<a href="https://github.com/Alejonsons" target="_blank"><img class="giticon" src="img/giticon.png" width="30px"/></a>
+			</div>
+			<img class="iconewpp" src="img/iconewpp.png" />
+			<h4 class="wpp">(11) +55997286866</h4>
+			<img class="iconelocal" src="img/iconelocal.png" />
+			<h4 class="local">Jaçanã, São Paulo</h4>
+			<h4 class="nomefooter">Alejandro Guarianas Cortez</h4>
+			<h4 class="curso">ADS 1º Semestre</h4>
+		</footer>
+	</body>
+</html>
